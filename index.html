@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ระบบข้อสอบอย่างง่าย Simple Quiz</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="quiz-container">
+        <p id="question1">PYT ย่อมาชื่อบริษัทอะไร ?</p>
+        <button class="button question1" onclick="checkAnswer1('a')">A) ปัญญาทารา</button>
+        <button class="button question1" onclick="checkAnswer1('b')">B) ปัญญธารา</button>
+        <button class="button question1" onclick="checkAnswer1('c')">C) ปัญญาภิวัฒน์</button>
+        <button class="button question1" onclick="checkAnswer1('d')">D) ปัญญาภาวนา</button>
+        <p id="result1"></p>
+    </div>
+    <br>
+    <div class="quiz-container">
+        <p id="question2">ATN ย่อมาชื่อบริษัทอะไร ?</p>
+        <button class="button question2" onclick="checkAnswer2('a')">A) ออลล์ อินสไปร์</button>
+        <button class="button question2" onclick="checkAnswer2('b')">B) ออลล์ ออนไลน์</button>
+        <button class="button question2" onclick="checkAnswer2('c')">C) ออลล์ เวลเนส</button>
+        <button class="button question2" onclick="checkAnswer2('d')">D) ออลล์ เทรนนิ่ง</button>
+        <p id="result2"></p>
+    </div>
+    <div class="quiz-container">
+        <h3>คะแนน</h3>
+        <p id="score">-</p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
